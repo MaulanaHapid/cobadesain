@@ -7,12 +7,18 @@ body{
     font-weight: 500;
     position: relative;
     background-color: #efefef ;
+    z-index: 1;
+ }
+
+ .navbar .activateed{
+ color: #69bb7e;
  }
 
  .navbar .nav-nav{
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+ 
  }
 
 #templatemo_main_nav a { color: #212934;}
@@ -73,9 +79,9 @@ body{
 .produk .ppp p{
   font-size: small;
 }
- .carousel{
+ /* .carousel{
     z-index: -1;
- }
+ } */
 .carousel h1{
     font-weight: 600;
     margin-bottom: 0.6rem;
@@ -181,10 +187,10 @@ border: hsl(0, 0%, 0%);
   margin-top: 1rem;
   border:solid #1a3a18;
   border-width: 5px 0px;
-  background-image: url(../img/Home.png);
+  background-image: url(../img/ehaan-010.jpg);
   padding-top: 20rem;
   background-size: cover;
-  background-position: center;
+  background-position-y: 30%;
   background-repeat: no-repeat;
   min-height: 50vh;
   width: 100%;
