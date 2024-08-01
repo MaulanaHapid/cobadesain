@@ -42,24 +42,37 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&family=Poppins:wght@400;500&family=Sacramento&family=Work+Sans:wght@100&display=swap"
         rel="stylesheet">
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
 
 
-    <!-- NAVBAR START -->
-    <nav class="mynavbar navbar navbar-expand-lg bg-body-transparent">
-        <div class="container-fluid">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg  navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand text-success logo h1 align-self-center fs-4" href="index.html">
+
+                <img src="assets/img/vintage-nasi-goreng-logo-free-vector-removebg-preview.png" alt="" width="150"
+                    height="80">
+
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Produk Andalan</a>
+
+            <div class=" collapse navbar-collapse" id="templatemo_main_nav">
+
+                <ul class="nav navbar-nav  ms-auto fs-5" style="">
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="#produc">Produk Andalan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Nasikotak.html">Nasi Kotak</a>
@@ -72,83 +85,100 @@
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
-    <!-- NAVBAR END -->
+    <!-- Close Header -->
 
 
-    <!-- hero -->
-    <section id="hero" class="hero">
-        <div class="col">
-            <div class="imager">
-                <main class="col-lg-12 text-center text-white">
-                </main>
-            </div>
-            <div class="offer mt-4">
+<!-- Section: Design Block -->
+<section class="">
+  <!-- Jumbotron -->
+  <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+    <div class="container">
+      <div class="row gx-lg-5 align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h1 class="my-5 display-3 fw-bold ls-tight">
+            THE BEST FOOD <br />
+            <span class="text-primary">Terbaik Sedunia</span>
+          </h1>
+          <p style="color: hsl(217, 10%, 50.8%)">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eveniet, itaque accusantium odio, soluta, corrupti aliquam
+            quibusdam tempora at cupiditate quis eum maiores libero
+            veritatis? Dicta facilis sint aliquid ipsum atque?
+          </p>
+        </div>
 
-                <div class="image row d-flex justify-content-center align-items-center w-100 text-center pb-4 "
-                    style="font-size:large !important;">
-
-                    <div class="col-sm-3 col-4 " style="width: 165px; height: 165px;" >
-                        <div class="card" >
-                            <img src="img/download.jpg" class="img-fluid rounded" alt="..." >
-                        </div>
-                        <div class="card">
-                            <div class="card-body"> <h6>Nasi Goreng</h6>
-                                <!-- <h6 class="card-title">Mobil Bekas</h6>
-                                <p class="card-text">Kualitas terbaik, Harga Termurah, aman dan amanah</p>
-                                <a href="product.php" class="btn btn-primary">Lihat Selengkapnya</a> -->
-                            </div>
-                        </div>
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="card">
+              <div class="card-body py-5 px-md-5">
+                <h1 class="text-center mb-3 " style="margin-top: -2rem;">HUBUNGI KAMI</h1>
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div data-mdb-input-init class="form-outline">
+                        <label class="form-label" for="form3Example1">Nama</label>
+                      <input type="text" id="form3Example1" class="form-control" />
                     </div>
-                    <div class="col-sm-3 col-4 " style="width: 165px; height: 165px;" >
-                        <div class="card" >
-                            <img src="img/download.jpg" class="img-fluid rounded" alt="..." >
-                        </div>
-                        <div class="card">
-                            <div class="card-body"> <h6>Nasi Goreng</h6>
-                                <!-- <h6 class="card-title">Mobil Bekas</h6>
-                                <p class="card-text">Kualitas terbaik, Harga Termurah, aman dan amanah</p>
-                                <a href="product.php" class="btn btn-primary">Lihat Selengkapnya</a> -->
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div data-mdb-input-init class="form-outline">
+                        <label class="form-label" for="form3Example2">NO HP</label>
+                      <input type="text" id="form3Example2" class="form-control" />
                     </div>
-                    <div class="col-sm-3 col-4 " style="width: 165px; height: 165px;" >
-                        <div class="card" >
-                            <img src="img/download.jpg" class="img-fluid rounded" alt="..." >
-                        </div>
-                        <div class="card">
-                            <div class="card-body"> <h6>Nasi Goreng</h6>
-                                <!-- <h6 class="card-title">Mobil Bekas</h6>
-                                <p class="card-text">Kualitas terbaik, Harga Termurah, aman dan amanah</p>
-                                <a href="product.php" class="btn btn-primary">Lihat Selengkapnya</a> -->
-                            </div>
-                        </div>
-                    </div>
-                   
-                 
+                  </div>
                 </div>
-            </div>
-        </div>
-        
-    </section>
 
-    <div class="row g-0" style="margin-top:-1rem;">
-        <div class="col-2 p-4 d-flex justify-content-center align-items-center" style=" color: #c9a65b; font-size: large; background-color: #1a3a18;">Call to action</div>
-        <div class="col-10 p-4 me-auto" style="border-top: 5px solid #1a3a18;">
-            <div class="row text-warp">
-                <div class="col-2 text-center">
-            <img src="img/download.jpg" alt="" style="border-radius: 50%;  width: 80px; ">
-            <h6 style="color: #c9a65b;">Nasi Goreng</h6>
-        </div>
-                <div class="col-2 text-center">
-            <img src="img/download.jpg" alt="" style="border-radius: 50%;  width: 80px;  ">
-            <h6 style="color: #c9a65b;">Nasi Goreng</h6>
-        </div>
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form3Example3">Email</label>
+                  <input type="email" id="form3Example3" class="form-control" />
+                </div>
+
+                <!-- Password input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form3Example4">Pesan</label>
+                  <input type="password" id="form3Example4" class="form-control" />
+                </div>
+
+            
+
+                <!-- Submit button -->
+                <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4 px-3">
+                  Kirim
+                </button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                 
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                    <i class="bi bi-facebook"></i>
+                  </button>
+
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                    <i class="bi bi-google"></i>
+                  </button>
+
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                    <i class="bi bi-twitter"></i>
+                  </button>
+
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1">
+                    <i class="bi bi-github"></i>
+                  </button>
+                </div>
+              </form>
             </div>
+          </div>
         </div>
       </div>
- 
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</section>
+<!-- Section: Design Block -->
 
 
     <!-- bootstrap -->
