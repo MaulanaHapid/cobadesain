@@ -1,12 +1,12 @@
 body{
-    background-color: #e1efda;
+    background-color: #daefdee8;
     font-family: "Open Sans", sans-serif;
 }
 .navbar{
-    height: 5rem !important;
+    height: 4rem !important;
     font-weight: 500;
     position: relative;
-    background-color: #efefef ;
+    background-color: #425B52 ;
     z-index: 1;
  }
 
@@ -194,6 +194,12 @@ border: hsl(0, 0%, 0%);
   background-repeat: no-repeat;
   min-height: 50vh;
   width: 100%;
+}
+.imagers{
+  /* margin-top: 1rem; */
+  border: solid #1a3a18;
+  border-width: 10px 0px;
+
 }
 
 .myimg{
